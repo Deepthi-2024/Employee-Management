@@ -11,3 +11,139 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.mainheading{
+  color:darkblue;
+  font-weight: 700;
+}
+.form-add{
+    border: 2px solid black;
+    background-color: rgba(233, 12, 104, 0.567);
+    padding: 20px;
+    width: 700px;
+    margin: 0 auto;
+    padding-right: 40px;
+    border-radius: 6px;
+    font-size: 20px;
+   
+}
+.form-add label{
+  display: block;
+  font-weight: 16px;
+  margin-bottom: 5px;
+  font-weight:20px;
+}
+.form-add input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 3px solid rgb(47, 179, 255);
+  border-radius: 5px;
+}
+.form-add button{
+  position: relative;
+  left: 170px;
+  width: 50%;
+  display: block;
+  background-color:rgba(10, 54, 248, 0.928);
+  color: violet;
+  padding: 10px;
+  cursor: pointer;
+  color:black;
+  border-radius: 10px;
+}
+.form-add button:hover{
+  background-color: rgb(217, 244, 12);
+}
+.emp-table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color:grey;
+}
+.emp-table th{
+  border: 2px solid black;
+  background-color: rgb(104, 226, 43);
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.emp-table td{
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  border: 3px solid black;
+}
+.emp-table tbody button{
+  width: 100%;
+  background-color: black;
+  color: beige;
+  padding: 10px;
+  cursor: pointer;
+}
+.emp-table tbody button:hover{
+  background-color: white;
+  color: black;
+}
+.pop-up{
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pop-up .popup-cancel{
+  width:10%;
+  text-align: center;
+  border:2px solid black;
+  border-radius: 10px;
+  padding: 0px;
+  margin: 0;
+  top: 0;
+  left: 0;
+  
+}
+
+
+.form-update{
+  border: 2px solid black;
+  background-color: rgba(233, 12, 104, 0.567);
+  padding: 20px;
+  width: 700px;
+  margin: 0 auto;
+  padding-right: 40px;
+  border-radius: 6px;
+  font-size: 20px;
+ 
+}
+.form-update label{
+  display: block;
+  font-weight: 16px;
+  margin-bottom: 5px;
+  font-weight:20px;
+}
+.form-update input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 3px solid rgb(47, 179, 255);
+  border-radius: 5px;
+}
+.form-update button{
+  position: relative;
+  left: 170px;
+  width: 50%;
+  display: block;
+  background-color:rgba(10, 54, 248, 0.928);
+  color: violet;
+  padding: 10px;
+  cursor: pointer;
+  color:black;
+  border-radius: 10px;
+}
+.form-update button:hover{
+background-color:yellow;
+}
